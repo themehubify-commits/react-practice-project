@@ -4,6 +4,11 @@ import Profile from './components/profile'
 import Test from './components/Test'
 import TodoList from './components/ToDoList'
 import PackingList from './components/PackingList'
+import Button from './components/Button'
+import Toolbar from './components/Tollber'
+import Toolbar1 from './components/Toolber'
+import Signup from './components/Signup'
+import Gallery1 from './components/Gallery'
 
 const People = [
   'Creola Katherine Johnson: mathematician',
@@ -16,18 +21,25 @@ const People = [
 
 function App() {
 
-  const listItem = People.map((P) => <li>{P}</li>)
+  // const listItem = People.map((P) => <li>{P}</li>)
 
   return (
     <>
-    <Gallery />
-     <Test />
-     <TodoList />
-     <PackingList />
-     <Profile />
-     <ul>
+    {/* <Gallery /> */}
+     {/* <Test /> */}
+     {/* <TodoList /> */}
+     {/* <PackingList /> */}
+     {/* <Profile /> */}
+     {/* <ul>
       <li>{listItem}</li>
-     </ul>
+     </ul> */}
+     {/* <Button />  */}
+     {/* <Toolbar /> */}
+     {/* <Toolbar1 /> */}
+     {/* <Signup /> */}
+     <Gallery1 />
+     <hr />
+     <Gallery1 />
     </>
   )
 }
