@@ -9,6 +9,11 @@ import Toolbar from './components/Tollber'
 import Toolbar1 from './components/Toolber'
 import Signup from './components/Signup'
 import Gallery1 from './components/Gallery'
+import Counter from './components/Counter'
+import MovingDot from './components/MovingDot'
+import Form from './components/From'
+import List from './components/List'
+import ShapeEditor from './components/ShapeEditor'
 
 const People = [
   'Creola Katherine Johnson: mathematician',
@@ -37,9 +42,14 @@ function App() {
      {/* <Toolbar /> */}
      {/* <Toolbar1 /> */}
      {/* <Signup /> */}
-     <Gallery1 />
-     <hr />
-     <Gallery1 />
+     {/* <Gallery1 /> */}
+     {/* <hr /> */}
+     {/* <Gallery1 /> */}
+     {/* <Counter /> */}
+     {/* <MovingDot /> */}
+     {/* <Form /> */}
+     {/* <List /> */}
+     <ShapeEditor />
     </>
   )
 }
