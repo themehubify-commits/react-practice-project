@@ -1,5 +1,6 @@
 import Gallery from './components/section'
 import './App.css'
+import './style.css'
 import Profile from './components/profile'
 import Test from './components/Test'
 import TodoList from './components/ToDoList'
@@ -14,6 +15,14 @@ import MovingDot from './components/MovingDot'
 import Form from './components/From'
 import List from './components/List'
 import ShapeEditor from './components/ShapeEditor'
+import Input from './components/Input'
+import AddInput from './components/addInput'
+import Ticket from './components/Ticket'
+import Travel from './components/Travel'
+import TravelEditable from './components/TravelEditable'
+import TravelPlan from './components/TravelPlan'
+import Accordion from './components/Accordion'
+import Messenger from './components/Messenger'
 
 const People = [
   'Creola Katherine Johnson: mathematician',
@@ -38,7 +47,7 @@ function App() {
      {/* <ul>
       <li>{listItem}</li>
      </ul> */}
-     {/* <Button />  */}
+  {/* <Button />   */}
      {/* <Toolbar /> */}
      {/* <Toolbar1 /> */}
      {/* <Signup /> */}
@@ -49,7 +58,15 @@ function App() {
      {/* <MovingDot /> */}
      {/* <Form /> */}
      {/* <List /> */}
-     <ShapeEditor />
+     {/* <ShapeEditor /> */}
+     {/* <Input /> */}
+      {/* <AddInput /> */}
+      {/* <Ticket /> */}
+      {/* <Travel /> */}
+      {/* <TravelEditable /> */}
+      {/* <TravelPlan /> */}
+      {/* <Accordion /> */}
+      <Messenger />
     </>
   )
 }

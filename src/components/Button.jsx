@@ -15,6 +15,9 @@ export default function Button() {
       <AlertButton message="Uploading!">
         Upload Image
       </AlertButton>
+      <AlertButton message="hello!">
+          click me
+      </AlertButton>
     </div>
   );
 }

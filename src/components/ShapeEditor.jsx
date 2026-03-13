@@ -26,7 +26,10 @@ export default function ShapeEditor() {
     });
     
     setShapes(nextShapes);
+      console.log(nextShapes)
+
   }
+  
 
   return (
     <>
