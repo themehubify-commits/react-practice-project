@@ -23,6 +23,7 @@ import TravelEditable from './components/TravelEditable'
 import TravelPlan from './components/TravelPlan'
 import Accordion from './components/Accordion'
 import Messenger from './components/Messenger'
+import ToDO from './components/todo'
 
 const People = [
   'Creola Katherine Johnson: mathematician',
@@ -66,7 +67,8 @@ function App() {
       {/* <TravelEditable /> */}
       {/* <TravelPlan /> */}
       {/* <Accordion /> */}
-      <Messenger />
+      {/* <Messenger /> */}
+      <ToDO />
     </>
   )
 }
